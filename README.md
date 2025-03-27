@@ -240,20 +240,29 @@ Conducted Exploratory Data Analysis (EDA) to validate the cleaned dataset, ensur
 
 Results & Findings
 1. Data Quality Improvements
+
 🔹 Duplicates Removed: The dataset originally contained redundant entries that were eliminated.
+
 🔹 Missing Data Handled: Missing values were either imputed or removed based on relevance.
+
 🔹 Standardized Formats: Date, categorical, and numerical fields were cleaned and structured properly.
 
 2. Key Insights from Cleaned Data
+   
 📊 Customer Spending Trends: Identified high-revenue product lines and top-performing store branches.
+
 📊 Sales Performance Analysis: Aggregated sales data provided store-level and category-level insights.
+
 📊 Time-Based Sales Trends: Validated peak sales periods, helping optimize marketing and inventory decisions.
 
 Visualizations
-1. Uncleaned Dataset Overview
+
 Before data cleaning, the dataset contained multiple inconsistencies, which affected analysis.
+### **1. Uncleaned Dataset Overview**  
+![Uncleaned Dataset Overview](https://github.com/Gurkrn/data-analyst-gurkaran/blob/7e16bd24c18c11c5e6bab1b0382e13ee95a05183/DW.jpg)  
 
+### **2. Cleaned Dataset Overview**  
+![Cleaned Dataset](https://github.com/Gurkrn/data-analyst-gurkaran/blob/7e16bd24c18c11c5e6bab1b0382e13ee95a05183/DW2.jpg)  
 
-2. Cleaned Dataset Overview
 After data wrangling, the dataset is structured, clean, and ready for insights.
 
