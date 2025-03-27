@@ -1,3 +1,4 @@
+![AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20250327-27-qhsyw2_page-0001](https://github.com/user-attachments/assets/2354af89-ab75-4a71-8ffc-ef6590f3d683)
 # data-analyst-gurkaran
 # Project Title: Titanic Survival Analysis
 Objective and Aim
