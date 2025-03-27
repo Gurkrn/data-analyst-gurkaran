@@ -266,3 +266,74 @@ Before data cleaning, the dataset contained multiple inconsistencies, which affe
 
 After data wrangling, the dataset is structured, clean, and ready for insights.
 
+
+
+
+# PROJECT 4
+
+# Data Control 
+
+Exploratory Data Analysis (EDA) and Key Performance Indicators (KPIs) for Data Quality Control
+Maintaining high-quality data is an ongoing process that requires systematic evaluation, cleaning, and monitoring. This section provides a detailed exploratory data analysis (EDA) with references to our previous project, Data Wrangling for Enhanced Customer Analytics, while outlining a robust Data Quality Control framework.
+
+In our previous project, data wrangling and cleaning revealed several data quality challenges that significantly impacted the accuracy, completeness, and reliability of business insights. One major issue was handling missing values, where we identified gaps in key fields such as customer demographics and purchase amounts. To address this, we applied various imputation techniques, including mean, median, and logical filling based on business rules. Now, in the current Data Quality Control project, we establish real-time missing value detection to ensure data completeness from the outset.
+
+Duplicate records posed another critical issue in our initial dataset. In Project 1, we found 1,245 duplicate entries, which skewed analytics and resulted in misleading trends. Using Pandas’ .duplicated() method and fuzzy matching techniques, we detected and removed these redundant records. Moving forward, automated deduplication scripts will be integrated into our Data Quality Monitoring system to prevent duplicates from entering the database.
+
+Another challenge encountered in Project 1 was inconsistent data formats, particularly in date fields. The dataset contained multiple formats such as MM/DD/YYYY and YYYY-MM-DD, causing errors in trend analysis plots. To resolve this, we standardized all date formats using Python’s datetime module and applied validation rules to enforce uniformity. The current Data Quality Control framework now ensures strict adherence to format guidelines for all new data entries, reducing errors and ensuring consistency across datasets.
+
+Validating data accuracy was a crucial step in ensuring that calculations aligned correctly. Initially, we found that transaction values did not always match computed totals, signaling potential data entry errors. To address this, we cross-validated numerical fields by recalculating totals using unit price and quantity. This process helped identify discrepancies and led to necessary corrections. As part of the current project, automated validation checks will be implemented before data is accepted into the system, preventing such issues in future datasets.
+
+Standardizing categorical data was another key aspect of improving data quality. In Project 1, we observed inconsistent labels, such as variations in spelling and capitalization for payment methods (e.g., "Credit Card" vs. "credit_card"), which made categorical analysis unreliable. To address this, we applied label standardization techniques and enforced lookup tables to maintain uniformity. Moving forward, the Data Quality Control framework includes controlled vocabulary and dropdown menus to ensure consistency at the point of data entry.
+
+To continuously monitor and improve data quality, we define several key performance indicators (KPIs). These include the percentage of missing data, the number of duplicate records, the format consistency score, the error rate in key fields, validation rule compliance, and the timeliness of data entry. For instance, missing data percentage is tracked to ensure it remains below 1%, duplicate records should be completely eliminated, and validation rule compliance should exceed 95%. These KPIs provide measurable benchmarks to assess and improve data quality over time.
+
+Exploratory data analysis plays a crucial role in detecting quality issues early and ensuring that cleaned data is ready for analysis. In Project 1, we used visualizations such as boxplots to detect outliers in transaction amounts, count plots to identify duplicate records, and bar charts to visualize inconsistencies in product categories. The uncleaned dataset exhibited a range of issues, including extreme values and formatting inconsistencies. After data wrangling, histograms and scatterplots confirmed that the dataset was structured, clean, and ready for insights.
+
+The cleaned dataset provides a foundation for high-quality analysis, ensuring reliable business insights. By integrating automated validation, monitoring dashboards, and best practices, the Data Quality Control framework enhances data integrity and supports informed decision-making. The transition from reactive data cleaning to proactive quality control measures marks a significant improvement in the organization’s data management approach.
+
+
+Key Performance Indicators (KPIs) for Data Quality Control
+To effectively measure data quality improvements and ensure consistency across datasets, we define the following KPIs. These indicators provide quantitative benchmarks for assessing the success of data quality control measures and allow continuous monitoring of data integrity. The table below outlines the key KPIs along with their target values, methods of calculation, and Python code suggestions to implement them.
+
+
+## **Key Performance Indicators (KPIs) for Data Quality Control**
+
+| **KPI**                          | **Description**                                                   | **Target Value** | **Calculation Method**  | **Python Code Suggestion** |
+|----------------------------------|-----------------------------------------------------------------|---------------|---------------------|----------------------|
+| **Missing Data Percentage**      | Measures the percentage of missing values in critical columns.  | < 1%         | (Missing values / Total records) * 100  | `df.isnull().sum() / len(df) * 100` |
+| **Duplicate Records**            | Counts the number of duplicate rows.                            | 0            | `df.duplicated().sum()`  | `df[df.duplicated()]` |
+| **Data Format Consistency**      | Ensures consistent formats in date and categorical fields.      | 100%         | Checking format compliance  | `pd.to_datetime(df['date_column'], errors='coerce')` |
+| **Validation Rule Compliance**   | Percentage of records that meet predefined validation rules.     | > 95%        | (Valid records / Total records) * 100  | `df[df['amount'] > 0].count() / len(df) * 100` |
+| **Data Entry Accuracy**          | Identifies inconsistencies in manually entered data.            | < 2% error   | Comparing actual vs. expected values  | `df['total'] == df['price'] * df['quantity']` |
+| **Data Standardization Score**   | Measures adherence to predefined naming conventions.            | > 98%        | Ratio of standardized records  | `df['category'].str.lower().nunique() / df['category'].nunique() * 100` |
+| **Timeliness of Data Entry**     | Evaluates how quickly data is entered after an event occurs.    | < 24 hours   | Time difference between event and entry  | `df['entry_time'] - df['event_time']` |
+| **Outlier Detection Rate**       | Identifies extreme values that may indicate errors.             | < 5%         | Z-score or IQR method  | `zscore(df['column']) > 3` |
+| **Data Completeness Score**      | Measures the presence of all required fields.                   | > 99%        | (Complete records / Total records) * 100  | `df.dropna().shape[0] / df.shape[0] * 100` |
+
+Analysis and Explanation
+In our previous data wrangling project, we identified key data quality issues such as missing values, duplicates, inconsistent formats, and inaccurate calculations. The current Data Quality Control initiative builds on these findings by implementing structured monitoring and validation processes.
+
+One critical improvement is the proactive detection of missing values, reducing them from a high percentage in Project 1 to an acceptable threshold of less than 1%. The code implementation ensures that missing data is identified early and addressed through appropriate imputation techniques.
+
+Duplicate records were another significant issue in our prior dataset, leading to incorrect aggregations in sales and customer behavior analysis. Through the implementation of automated deduplication checks, the current project eliminates redundancy before it impacts analysis.
+
+Inconsistent data formats, especially in dates and categorical values, previously led to difficulties in filtering and aggregating data. The validation scripts now ensure that all new data adheres to a standardized format, significantly improving consistency and usability.
+
+By defining KPIs such as validation rule compliance and data entry accuracy, we ensure that errors in manually entered data are minimized. This approach allows for real-time correction mechanisms that prevent faulty records from affecting decision-making.
+
+Timeliness of data entry is another essential metric, ensuring that data is updated within 24 hours of an event. In the previous project, delayed data entry led to outdated insights, impacting business decisions. The new framework automates tracking and alerts when data entry lags behind the expected time frame.
+
+Outlier detection is also crucial, as extreme values can distort trends and lead to misleading conclusions. The implementation of the Z-score method ensures that anomalies are flagged and reviewed before they influence critical analyses.
+
+Data completeness, one of the most fundamental KPIs, measures whether all necessary fields are populated. In Project 1, incomplete records affected segmentation and trend analysis. The current framework ensures that completeness is maintained above 99%, improving the reliability of insights.
+
+By consistently tracking and analyzing these KPIs, we ensure that our datasets remain accurate, reliable, and ready for business intelligence applications. The transition from reactive data cleaning to proactive data quality management marks a significant advancement in our data governance strategy.
+
+
+
+
+
+
+
+
