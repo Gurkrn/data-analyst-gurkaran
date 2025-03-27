@@ -47,3 +47,61 @@ Third-class passengers had the lowest survival rates, likely due to their cabins
 Conclusion
 This analysis demonstrates how socioeconomic status, gender, and class significantly influenced survival on the Titanic. The findings provide valuable insights into historical survival patterns and highlight the potential for further predictive modeling. Future work could involve applying machine learning algorithms to predict survival outcomes based on passenger attributes, enhancing data-driven decision-making in similar scenarios.
 
+# PROJECT 2
+
+
+# Understanding Customer Purchase Patterns at XYZ Retail
+Objective
+The goal of this project is to conduct a descriptive analysis of customer purchase patterns at XYZ Retail. By analyzing transaction data, we aim to identify key trends, consumer behaviors, and insights that can inform marketing strategies and inventory management.
+
+Methodology
+Data Collection & Preparation
+
+Generated a synthetic dataset of 1,000+ transaction records with key details such as Transaction ID, Customer ID, Purchase Date, Product Category, Quantity, Price, Payment Method, and Store Location.
+
+Cleaned the data by addressing missing values and correcting data types.
+
+Descriptive Analysis & Visualization
+
+Sales Trend Over Time: Analyzed total transactions per month to identify peak shopping periods.
+
+Top Product Categories: Identified the most frequently purchased product categories.
+
+Payment Method Distribution: Examined customer preferences for different payment options.
+
+Customer Segmentation & Insights
+
+Segmented customers based on purchase frequency and behavior.
+
+Derived insights to optimize inventory, promotions, and marketing strategies.
+
+Results & Findings
+📊 Sales Trend Over Time
+
+The highest number of transactions occurred in August 2023 (104 transactions), indicating a peak shopping period, possibly due to seasonal promotions.
+
+### **1. Sales Trend Over Time**  
+![Sales Trend Over Time](https://github.com/Gurkrn/data-analyst-gurkaran/blob/383ad10e6ea53f4404015d7f66c3abac50ea457b/newplot%20(1).png?raw=true)  
+
+
+🛒 Top Product Categories
+The most purchased category was Furniture (226 purchases), followed by Toys (209), Clothing (203), Electronics (193), and Groceries (169).
+
+### **2. Product Category Distribution**  
+![Product Category Distribution](https://github.com/Gurkrn/data-analyst-gurkaran/blob/383ad10e6ea53f4404015d7f66c3abac50ea457b/newplot%20(2).png?raw=true)  
+
+💳 Payment Method Preferences
+Digital Payments (344 transactions) were the most used method, slightly ahead of Cash (335 transactions) and Credit Cards (321 transactions).
+
+### **3. Payment Method Preferences**  
+![Payment Method Preferences](https://github.com/Gurkrn/data-analyst-gurkaran/blob/383ad10e6ea53f4404015d7f66c3abac50ea457b/newplot%20(3).png?raw=true) 
+
+# Key Insights & Recommendations
+
+✅ Peak Shopping Periods: August had the highest transactions, suggesting seasonal trends that XYZ Retail can leverage through targeted marketing campaigns.
+
+✅ Inventory Planning: Furniture and Toys had the highest purchase volumes, indicating a need for adequate stock levels and possible cross-promotions between these categories.
+
+✅ Payment Preferences: The shift toward digital payments suggests an opportunity to introduce loyalty rewards or exclusive discounts for online or mobile transactions.
+
+By leveraging these insights, XYZ Retail can optimize inventory management, pricing strategies, and customer engagement, ultimately improving sales and customer satisfaction. 🚀
