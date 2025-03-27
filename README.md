@@ -144,32 +144,40 @@ Digital payments accounted for the highest transaction amounts ($134,767), sugge
 Customers in Chicago and Los Angeles had the highest average transaction values (~$267), while those in New York had the lowest ($243), highlighting regional differences in purchasing behavior.
 
 Visualizations & Findings
-1. Trend Analysis: Sales Decline Over Time
+Sales Decline Over Time
 Monthly sales data revealed a downward trend, with the most significant declines observed in July and November.
 
 Regression analysis indicated a strong negative correlation between time and sales, with an average monthly decrease of approximately $1,317.
 
+### **1. Sales Trend Over Time**  
+![Sales Trend Over Time](https://github.com/Gurkrn/data-analyst-gurkaran/blob/1038402cccc4b922a73e508129062cb4d2bee29b/newplot%20(4).png?raw=true)  
 
-2. Correlation Analysis: Sales vs. Other Factors
+Sales vs. Other Factors
 Regression results suggest that time is a significant predictor of sales decline (p = 0.007).
 
 External factors, such as inventory levels and changing consumer spending habits, may also contribute to the decline.
 
+### **2. Correlation Analysis**  
+![Correlation Analysis](https://github.com/Gurkrn/data-analyst-gurkaran/blob/1038402cccc4b922a73e508129062cb4d2bee29b/Corre.jpg?raw=true)  
 
-3. Root Cause Analysis
+
 Potential causes identified include seasonal demand fluctuations, shifts in payment preferences, and regional differences in customer spending.
 
 Further qualitative research, such as staff interviews and customer feedback analysis, could provide deeper insights.
 
+### **3. Payment Method Preferences**  
+![Payment Method Preferences](https://github.com/Gurkrn/data-analyst-gurkaran/blob/1038402cccc4b922a73e508129062cb4d2bee29b/newplot%20(6).png?raw=true)  
 
-4. Segmentation Analysis: Customer Behavior
+
 High-spending customers were primarily located in Chicago and Los Angeles, with average transaction values above $260.
 
 New York customers had the lowest average spending (~$243), suggesting potential regional differences in purchasing power or preferences.
 
-
+### **4. Customer Segmentation**  
+![Customer Segmentation](https://github.com/Gurkrn/data-analyst-gurkaran/blob/1038402cccc4b922a73e508129062cb4d2bee29b/newplot%20(5).png?raw=true)  
 
 Conclusion & Recommendations
+
 Implement targeted pricing strategies and promotions during months with the steepest declines.
 
 Strengthen digital payment and e-commerce capabilities to cater to changing customer preferences.
@@ -179,3 +187,7 @@ Develop location-specific marketing campaigns to improve sales in underperformin
 Conduct customer surveys to gain qualitative insights into shifting consumer preferences.
 
 Optimize inventory management to ensure product availability aligns with demand patterns.
+
+
+
+
