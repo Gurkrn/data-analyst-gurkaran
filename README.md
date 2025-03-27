@@ -189,5 +189,71 @@ Conduct customer surveys to gain qualitative insights into shifting consumer pre
 Optimize inventory management to ensure product availability aligns with demand patterns.
 
 
+# PROJECT 4
 
+# Data Wrangling for Enhanced Customer Analytics at XYZ Company
+
+Project Objective
+The primary objective of this project is to clean, transform, and consolidate customer sales data to enhance its accuracy and usability for analysis at XYZ Company. The dataset, sourced from a supermarket sales record, contains inconsistencies, missing values, and formatting issues that need to be addressed for effective business insights.
+
+Project Aim
+By conducting a comprehensive data wrangling process, this project aims to prepare a structured dataset that can be used for customer behavior analysis, sales forecasting, and business decision-making. The cleaned dataset will serve as a foundation for further data-driven strategies, improving XYZ Company's ability to identify key sales trends and optimize marketing efforts.
+
+Methodology
+1. Data Collection
+The dataset was sourced from Kaggle’s Supermarket Sales Dataset and imported into Google Colab for processing.
+
+2. Data Assessment
+Conducted an initial analysis to detect:
+
+Missing values
+
+Duplicate records
+
+Inconsistent data formats
+
+Outliers and discrepancies in numerical fields
+
+3. Data Cleaning
+Missing Values: Handled using appropriate imputation techniques or removal where necessary.
+
+Duplicate Records: Removed to maintain data integrity.
+
+Inconsistent Formats: Standardized date columns and categorical variables for uniformity.
+
+Outliers: Detected and addressed where necessary, ensuring data reliability.
+
+4. Data Transformation
+Converted data types (e.g., Date column formatted as datetime).
+
+Engineered new features, including Total Revenue per Product Line and Customer Spending Patterns.
+
+Aggregated sales data to provide insights at a store level, category level, and customer level.
+
+5. Data Consolidation
+Merged relevant attributes to create a single structured dataset that connects sales transactions, customer demographics, and purchase patterns.
+
+6. Documentation & Validation
+Documented every step of the data wrangling process, including data sources, cleaning methods, and transformations.
+
+Conducted Exploratory Data Analysis (EDA) to validate the cleaned dataset, ensuring completeness and accuracy.
+
+Results & Findings
+1. Data Quality Improvements
+🔹 Duplicates Removed: The dataset originally contained redundant entries that were eliminated.
+🔹 Missing Data Handled: Missing values were either imputed or removed based on relevance.
+🔹 Standardized Formats: Date, categorical, and numerical fields were cleaned and structured properly.
+
+2. Key Insights from Cleaned Data
+📊 Customer Spending Trends: Identified high-revenue product lines and top-performing store branches.
+📊 Sales Performance Analysis: Aggregated sales data provided store-level and category-level insights.
+📊 Time-Based Sales Trends: Validated peak sales periods, helping optimize marketing and inventory decisions.
+
+Visualizations
+1. Uncleaned Dataset Overview
+Before data cleaning, the dataset contained multiple inconsistencies, which affected analysis.
+
+
+2. Cleaned Dataset Overview
+After data wrangling, the dataset is structured, clean, and ready for insights.
 
