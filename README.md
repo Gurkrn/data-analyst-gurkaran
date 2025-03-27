@@ -1,4 +1,3 @@
-![AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20250327-27-qhsyw2_page-0001](https://github.com/user-attachments/assets/2354af89-ab75-4a71-8ffc-ef6590f3d683)
 # data-analyst-gurkaran
 # Project Title: Titanic Survival Analysis
 Objective and Aim
@@ -330,6 +329,9 @@ Outlier detection is also crucial, as extreme values can distort trends and lead
 Data completeness, one of the most fundamental KPIs, measures whether all necessary fields are populated. In Project 1, incomplete records affected segmentation and trend analysis. The current framework ensures that completeness is maintained above 99%, improving the reliability of insights.
 
 By consistently tracking and analyzing these KPIs, we ensure that our datasets remain accurate, reliable, and ready for business intelligence applications. The transition from reactive data cleaning to proactive data quality management marks a significant advancement in our data governance strategy.
+
+![AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20250327-27-qhsyw2_page-0001](https://github.com/user-attachments/assets/02260d0a-912f-4552-878d-d02762c890f1)
+
 
 
 
