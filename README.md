@@ -105,3 +105,77 @@ Digital Payments (344 transactions) were the most used method, slightly ahead of
 ✅ Payment Preferences: The shift toward digital payments suggests an opportunity to introduce loyalty rewards or exclusive discounts for online or mobile transactions.
 
 By leveraging these insights, XYZ Retail can optimize inventory management, pricing strategies, and customer engagement, ultimately improving sales and customer satisfaction. 🚀
+
+
+# Project 3
+
+# Diagnostic Analysis of Sales Decline at XYZ Retail
+
+Objective & Aim
+
+This project investigates the reasons behind the decline in sales at XYZ Retail over the past year. By analyzing sales trends, customer behavior, and transaction data, the goal is to identify key patterns and correlations that explain the downturn. The findings will provide actionable recommendations for improving sales performance and optimizing business strategies.
+
+Methodology
+Trend Analysis
+
+Examined monthly sales trends to identify periods with the most significant sales declines.
+
+Correlation Analysis
+
+Conducted statistical regression analysis to measure the relationship between sales and variables such as time, inventory levels, customer behavior, and external factors.
+
+Root Cause Analysis
+
+Used techniques such as the "5 Whys" and Fishbone Diagram to explore potential causes, including operational inefficiencies, competitive influences, and consumer behavior shifts.
+
+Segmentation Analysis
+
+Categorized customers based on spending behavior and location to determine which groups are most affected by the decline.
+
+Results & Key Findings
+Sales have shown a steady decline over time, with an estimated monthly drop of approximately $1,317, as confirmed by regression analysis (p = 0.007).
+
+The most significant declines were observed in July and November, indicating possible seasonal trends or external economic factors.
+
+Furniture and Electronics were the best-selling product categories, with total sales of $83,637 and $77,682, respectively.
+
+Digital payments accounted for the highest transaction amounts ($134,767), suggesting a shift toward online and cashless payments.
+
+Customers in Chicago and Los Angeles had the highest average transaction values (~$267), while those in New York had the lowest ($243), highlighting regional differences in purchasing behavior.
+
+Visualizations & Findings
+1. Trend Analysis: Sales Decline Over Time
+Monthly sales data revealed a downward trend, with the most significant declines observed in July and November.
+
+Regression analysis indicated a strong negative correlation between time and sales, with an average monthly decrease of approximately $1,317.
+
+
+2. Correlation Analysis: Sales vs. Other Factors
+Regression results suggest that time is a significant predictor of sales decline (p = 0.007).
+
+External factors, such as inventory levels and changing consumer spending habits, may also contribute to the decline.
+
+
+3. Root Cause Analysis
+Potential causes identified include seasonal demand fluctuations, shifts in payment preferences, and regional differences in customer spending.
+
+Further qualitative research, such as staff interviews and customer feedback analysis, could provide deeper insights.
+
+
+4. Segmentation Analysis: Customer Behavior
+High-spending customers were primarily located in Chicago and Los Angeles, with average transaction values above $260.
+
+New York customers had the lowest average spending (~$243), suggesting potential regional differences in purchasing power or preferences.
+
+
+
+Conclusion & Recommendations
+Implement targeted pricing strategies and promotions during months with the steepest declines.
+
+Strengthen digital payment and e-commerce capabilities to cater to changing customer preferences.
+
+Develop location-specific marketing campaigns to improve sales in underperforming regions such as New York.
+
+Conduct customer surveys to gain qualitative insights into shifting consumer preferences.
+
+Optimize inventory management to ensure product availability aligns with demand patterns.
